@@ -1,0 +1,345 @@
+2022-01-24 22:52:17,946 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 22:52:19,249 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:19,256 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:19,286 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:20,503 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 22:52:21,789 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:21,796 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:32,013 - INFO - 192.168.10.164 - - [24/Jan/2022 22:52:32] "[31m[1mGET / HTTP/1.1[0m" 401 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:43,086 - INFO - 192.168.10.164 - - [24/Jan/2022 22:52:43] "[31m[1mGET / HTTP/1.1[0m" 401 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:57,948 - INFO - 192.168.10.164 - - [24/Jan/2022 22:52:57] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:52:58,078 - INFO - 192.168.10.164 - - [24/Jan/2022 22:52:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:53:06,748 - INFO - 192.168.10.164 - - [24/Jan/2022 22:53:06] "GET /sms HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:54:01,306 - INFO - 192.168.10.164 - - [24/Jan/2022 22:54:01] "GET /sms?text=Salut&numbers=+33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:58:23,422 - INFO - 192.168.10.155 - - [24/Jan/2022 22:58:23] "GET /sms HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 22:58:48,495 - INFO - 192.168.10.155 - - [24/Jan/2022 22:58:48] "GET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:01:03,443 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:01:03,616 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:01:04,822 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:01:06,096 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:01:06,103 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:01:16,048 - INFO - 192.168.10.155 - - [24/Jan/2022 23:01:16] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:11:17,376 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:11:17,578 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:11:18,814 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:11:20,098 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:11:20,114 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:11:29,036 - INFO - 192.168.10.155 - - [24/Jan/2022 23:11:29] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:36,781 - INFO - 192.168.10.155 - - [24/Jan/2022 23:14:36] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:50,688 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:14:51,974 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:51,989 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:52,014 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:53,258 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:14:54,535 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:54,563 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:14:57,760 - INFO - 192.168.10.155 - - [24/Jan/2022 23:14:57] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:15:40,359 - INFO - 192.168.10.155 - - [24/Jan/2022 23:15:40] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:16:04,769 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:16:04,987 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:16:06,303 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:16:07,595 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:16:07,605 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:16:17,464 - INFO - 192.168.10.155 - - [24/Jan/2022 23:16:17] "GET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:16:40,471 - INFO - 192.168.10.155 - - [24/Jan/2022 23:16:40] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B3360864898f7 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:17:01,726 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:17:01,932 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:17:03,158 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:17:04,439 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:17:04,446 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:17:11,266 - INFO - 192.168.10.155 - - [24/Jan/2022 23:17:11] "GET /sms?text=Salut%20Frédéric&numbers=%2B3360864898f7 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:18:31,681 - INFO - 192.168.10.155 - - [24/Jan/2022 23:18:31] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B3360864898f HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:18:34,731 - INFO - 192.168.10.155 - - [24/Jan/2022 23:18:34] "GET /sms?text=Salut%20Frédéric&numbers=%2B3360864898f HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:19:20,532 - INFO - 192.168.10.155 - - [24/Jan/2022 23:19:20] "[35m[1mGET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:19:26,240 - INFO - 192.168.10.155 - - [24/Jan/2022 23:19:26] "GET /sms?text=Salut%20Frédéric&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:36:38,993 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:36:39,228 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:36:40,503 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:36:41,778 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:36:41,791 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:44:45,217 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:44:45,411 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:44:46,713 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:44:51,628 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:44:51,644 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:19,330 - INFO - 192.168.10.155 - - [24/Jan/2022 23:45:19] "[35m[1mGET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:19,665 - INFO - 192.168.10.155 - - [24/Jan/2022 23:45:19] "[35m[1mGET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:49,322 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:49,552 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:50,886 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:45:55,950 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:55,972 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:45:57,278 - INFO - 192.168.10.155 - - [24/Jan/2022 23:45:57] "GET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:46:00,082 - INFO - 192.168.10.155 - - [24/Jan/2022 23:46:00] "[35m[1mGET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:46:58,967 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:46:59,175 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:47:00,542 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:47:05,468 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:47:05,480 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:47:11,030 - INFO - 192.168.10.155 - - [24/Jan/2022 23:47:11] "GET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:47:11,390 - INFO - 192.168.10.155 - - [24/Jan/2022 23:47:11] "GET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:47:20,622 - INFO - 192.168.10.155 - - [24/Jan/2022 23:47:20] "GET /sms?text=TEST%208&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:07,998 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:08,227 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:09,582 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:49:14,493 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:14,509 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:30,160 - INFO - 192.168.10.155 - - [24/Jan/2022 23:49:30] "GET /sms?text=TEST%209&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:36,643 - INFO - 192.168.10.155 - - [24/Jan/2022 23:49:36] "GET /sms?text=TEST%209&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:43,357 - INFO - 192.168.10.155 - - [24/Jan/2022 23:49:43] "GET /sms?text=TEST%209&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:49:55,016 - INFO - 192.168.10.155 - - [24/Jan/2022 23:49:55] "GET /sms?text=TEST%209&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:52:17,069 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:52:17,297 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:52:18,614 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-24 23:52:23,525 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-24 23:52:23,549 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:09:46,627 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:09:46,854 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:09:48,094 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:09:53,017 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:09:53,032 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:10:03,888 - INFO - 192.168.10.155 - - [25/Jan/2022 00:10:03] "GET /sms?text=TEST%2010&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:13:05,456 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:13:05,689 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:13:07,076 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:13:11,993 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:13:12,006 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:13:23,786 - INFO - 192.168.10.155 - - [25/Jan/2022 00:13:23] "GET /sms?text=TEST%2010&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:14:24,774 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:14:24,999 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:14:26,319 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:14:31,159 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:14:31,176 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:13,855 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:14,079 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:15,391 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:16:20,290 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:20,301 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:36,438 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:36,667 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:37,901 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:16:42,727 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:42,744 - INFO -  * Debugger PIN: 132-922-031 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:16:48,786 - INFO - 192.168.10.155 - - [25/Jan/2022 00:16:48] "GET /sms?text=TEST%2010&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:21:26,681 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:21:31,581 - ERROR -   File "index.py", line 54, in <module>
+    app.run(host='0.0.0.0', port=50888, debug=True)
+  File "/usr/local/lib/python3.7/dist-packages/flask/app.py", line 915, in run
+    cli.show_server_banner(self.env, self.debug, self.name, False)
+  File "/usr/local/lib/python3.7/dist-packages/flask/cli.py", line 680, in show_server_banner
+    click.echo(message)
+  File "/usr/local/lib/python3.7/dist-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:21:31,590 - ERROR - <class 'OSError'> - [Errno 5] Erreur d'entrée/sortie at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:22:27,838 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:22:32,744 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:22:32,764 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:22:32,784 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:22:34,276 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:22:35,580 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:22:35,589 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:23:34,704 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:23:39,595 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:23:39,608 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:23:39,627 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:23:40,907 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:23:42,179 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:23:42,197 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:25:01,735 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:25:06,741 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:25:06,752 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:25:06,774 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:25:08,070 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:25:09,357 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:25:09,376 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:26:03,786 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:26:08,827 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:26:08,846 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:26:08,899 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:26:10,169 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:26:11,455 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:26:11,461 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:28:36,983 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:28:44,898 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:28:44,901 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:28:44,922 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:28:46,097 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:28:47,336 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:28:47,340 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:31:57,028 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:32:01,774 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:32:01,779 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:32:01,805 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:32:02,992 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:32:04,233 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:32:04,235 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:33:11,131 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:33:15,876 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:33:15,880 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:33:15,899 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-25 00:33:17,093 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:33:18,334 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:33:18,338 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-25 00:33:33,936 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-25 00:33:35,174 - ERROR -   File "index.py", line 35, in <module>
+    state_machine.ReadConfig(Filename='/home/pi/Devlopp/SIM800L/gamfmu.ini')
+ at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-25 00:33:35,176 - ERROR - <class 'gammu.ERR_CANTOPENFILE'> - {'Text': "Impossible d'ouvrir le fichier spécifié.", 'Where': 'FindGammuRC via ReadConfig', 'Code': 28} at /usr/local/lib/python3.7/dist-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-29 18:35:55,744 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 18:36:00,601 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:36:00,605 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:36:00,632 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:36:01,808 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 18:36:03,045 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 36, in <module>
+    state_machine.Init()
+ at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-29 18:36:03,048 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-29 18:49:41,558 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 18:49:42,828 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:49:42,832 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:49:42,848 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:49:44,028 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 18:49:45,292 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:49:45,297 - INFO -  * Debugger PIN: 131-757-307 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:50:07,090 - INFO - 192.168.10.164 - - [29/Jan/2022 18:50:07] "[31m[1mGET / HTTP/1.1[0m" 401 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:50:15,276 - INFO - 192.168.10.164 - - [29/Jan/2022 18:50:15] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:50:15,440 - INFO - 192.168.10.164 - - [29/Jan/2022 18:50:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:51:06,934 - INFO - 192.168.10.164 - - [29/Jan/2022 18:51:06] "[35m[1mGET /sms?text=salutFred&numbers=+33608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:51:07,048 - INFO - 192.168.10.164 - - [29/Jan/2022 18:51:07] "GET /sms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:51:07,057 - INFO - 192.168.10.164 - - [29/Jan/2022 18:51:07] "GET /sms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:51:07,132 - INFO - 192.168.10.164 - - [29/Jan/2022 18:51:07] "GET /sms?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:51:07,139 - INFO - 192.168.10.164 - - [29/Jan/2022 18:51:07] "GET /sms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:51:07,176 - INFO - 192.168.10.164 - - [29/Jan/2022 18:51:07] "GET /sms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:56:10,926 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:56:11,130 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:56:12,307 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 18:56:13,568 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:56:13,572 - INFO -  * Debugger PIN: 131-757-307 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 18:56:28,775 - INFO - 192.168.10.164 - - [29/Jan/2022 18:56:28] "GET /sms?text=salutFred&numbers=+33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:01:41,846 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:01:43,120 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:01:43,123 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:01:43,138 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:01:44,321 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:01:45,581 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:01:45,585 - INFO -  * Debugger PIN: 131-757-307 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:01:59,938 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:36
+2022-01-29 19:02:03,409 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/SIM800L/index.py ,line n°:40
+2022-01-29 19:02:06,802 - INFO - 192.168.10.164 - - [29/Jan/2022 19:02:06] "GET /sms?text=salutFred&numbers=+33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:05:05,708 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/sms_sender.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:05:05,890 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:05:07,120 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:05:08,383 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:05:08,387 - INFO -  * Debugger PIN: 131-757-307 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:05:13,986 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:36
+2022-01-29 19:05:17,456 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/SIM800L/index.py ,line n°:40
+2022-01-29 19:05:19,769 - ERROR - SMS not send : {'Text': 'salutFred', 'SMSC': {'Location': 1}, 'Number': ' 33608648987'} => {'Text': 'Erreur inconnue.', 'Where': 'SendSMS', 'Code': 27} at /home/pi/Devlopp/SIM800L/sms_sender.py ,line n°:39
+2022-01-29 19:05:20,813 - INFO - 192.168.10.164 - - [29/Jan/2022 19:05:20] "GET /sms?text=salutFred&numbers=+33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:05:55,823 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:36
+2022-01-29 19:05:59,295 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/SIM800L/index.py ,line n°:40
+2022-01-29 19:06:04,743 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:04] "GET /sms?text=salutFred&numbers=0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:21,102 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:36
+2022-01-29 19:06:24,461 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:36
+2022-01-29 19:06:24,547 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:24] "[35m[1mGET /sms?text=salutFred&numbers=0608648987 HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:24,569 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/SIM800L/index.py ,line n°:40
+2022-01-29 19:06:24,594 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:24] "GET /sms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:24,596 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:24] "GET /sms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:24,639 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:24] "GET /sms?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:24,645 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:24] "GET /sms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:24,706 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:24] "GET /sms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:06:30,437 - INFO - 192.168.10.164 - - [29/Jan/2022 19:06:30] "GET /sms?text=salutFred&numbers=0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:12:38,158 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:12:38,347 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:12:39,513 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:12:40,751 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 29, in <module>
+    @app.on_event('startup')
+ at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-29 19:12:40,754 - ERROR - <class 'AttributeError'> - 'Flask' object has no attribute 'on_event' at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-29 19:12:49,444 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:12:50,674 - ERROR -   File "index.py", line 29, in <module>
+    @app.on_event('startup')
+ at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-29 19:12:50,677 - ERROR - <class 'AttributeError'> - 'Flask' object has no attribute 'on_event' at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-29 19:27:05,151 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:27:06,377 - INFO - Start gammu state machine .... at index.py ,line n°:30
+2022-01-29 19:27:09,843 - INFO - Gammu state machine is initialised. at index.py ,line n°:34
+2022-01-29 19:27:09,924 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:27:09,927 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:27:09,943 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:27:11,113 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:27:12,322 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:30
+2022-01-29 19:27:12,344 - ERROR -   File "/home/pi/Devlopp/SIM800L/index.py", line 33, in <module>
+    state_machine.Init()
+ at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:183
+2022-01-29 19:27:12,347 - ERROR - <class 'gammu.ERR_DEVICEOPENERROR'> - {'Text': "Erreur à l'ouverture du périphérique : périphérique inconnu, occupé ou problème de permissions.", 'Where': 'Init', 'Code': 2} at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:184
+2022-01-29 19:33:00,843 - INFO - my_logging logger is started. Console : INFO. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:33:02,116 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:33:02,119 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:33:02,135 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:33:03,306 - INFO - my_logging logger is started. Console : INFO. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:33:04,586 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:33:04,590 - INFO -  * Debugger PIN: 131-757-307 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:35:07,296 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:31
+2022-01-29 19:35:10,762 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/SIM800L/index.py ,line n°:35
+2022-01-29 19:35:12,037 - INFO - 192.168.10.164 - - [29/Jan/2022 19:35:12] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:35:19,536 - INFO - 192.168.10.164 - - [29/Jan/2022 19:35:19] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:35:30,729 - ERROR - SMS not send : {'Text': 'salutFred', 'SMSC': {'Location': 1}, 'Number': ' 33608648987'} => {'Text': 'Erreur inconnue.', 'Where': 'SendSMS', 'Code': 27} at /home/pi/Devlopp/SIM800L/sms_sender.py ,line n°:39
+2022-01-29 19:35:31,737 - INFO - 192.168.10.164 - - [29/Jan/2022 19:35:31] "GET /sms?text=salutFred&numbers=+33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:35:57,696 - INFO - 192.168.10.164 - - [29/Jan/2022 19:35:57] "GET /sms?text=salutFred&numbers=0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:36:09,963 - INFO - 192.168.10.164 - - [29/Jan/2022 19:36:09] "GET /sms?text=salutFred&numbers=0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:36:10,839 - INFO - 192.168.10.164 - - [29/Jan/2022 19:36:10] "GET /sms?text=salutFred&numbers=0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:36:21,234 - INFO - 192.168.10.164 - - [29/Jan/2022 19:36:21] "GET /sms?text=salutFred&numbers=0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:36:56,889 - ERROR - SMS not send : {'Text': 'salutFred', 'SMSC': {'Location': 1}, 'Number': ' 0608648987'} => {'Text': 'Erreur inconnue.', 'Where': 'SendSMS', 'Code': 27} at /home/pi/Devlopp/SIM800L/sms_sender.py ,line n°:39
+2022-01-29 19:36:57,896 - INFO - 192.168.10.164 - - [29/Jan/2022 19:36:57] "GET /sms?text=salutFred&numbers=+0608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:38:52,428 - INFO -  * Detected change in '/home/pi/Devlopp/SIM800L/index.py', reloading at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:38:52,605 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:38:53,782 - INFO - my_logging logger is started. Console : DEBUG. File (/home/pi/Devlopp/SIM800L/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-29 19:38:55,047 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:38:55,051 - INFO -  * Debugger PIN: 131-757-307 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:42:16,906 - INFO - Start gammu state machine .... at /home/pi/Devlopp/SIM800L/index.py ,line n°:31
+2022-01-29 19:42:20,373 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/SIM800L/index.py ,line n°:35
+2022-01-29 19:42:25,867 - INFO - 192.168.10.133 - - [29/Jan/2022 19:42:25] "GET /sms?text=Salut%200&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:42:39,770 - INFO - 192.168.10.133 - - [29/Jan/2022 19:42:39] "GET /sms?text=Salut%201&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:42:46,096 - INFO - 192.168.10.133 - - [29/Jan/2022 19:42:46] "GET /sms?text=Salut%203&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:42:46,372 - INFO - 192.168.10.133 - - [29/Jan/2022 19:42:46] "GET /sms?text=Salut%204&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:42:46,697 - INFO - 192.168.10.133 - - [29/Jan/2022 19:42:46] "GET /sms?text=Salut%205&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:42:47,061 - INFO - 192.168.10.133 - - [29/Jan/2022 19:42:47] "GET /sms?text=Salut%206&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:43:05,100 - INFO - 192.168.10.133 - - [29/Jan/2022 19:43:05] "GET /sms?text=Salut%202&numbers=%2B330608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:55:52,761 - INFO - 192.168.10.133 - - [29/Jan/2022 19:55:52] "GET /sms?text=Salut&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:57:15,846 - INFO - 192.168.10.133 - - [29/Jan/2022 19:57:15] "GET /sms?text=Salut&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:57:41,628 - INFO - 192.168.10.133 - - [29/Jan/2022 19:57:41] "GET /sms?text=1643482660401&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:57:54,326 - ERROR - SMS not send : {'Text': '1643482659727', 'SMSC': {'Location': 1}, 'Number': '+33608648987'} => {'Text': 'Erreur inconnue.', 'Where': 'SendSMS', 'Code': 27} at /home/pi/Devlopp/SIM800L/sms_sender.py ,line n°:39
+2022-01-29 19:58:08,273 - ERROR - SMS not send : {'Text': '1643482660401', 'SMSC': {'Location': 1}, 'Number': '+33608648987'} => {'Text': 'Erreur inconnue.', 'Where': 'SendSMS', 'Code': 27} at /home/pi/Devlopp/SIM800L/sms_sender.py ,line n°:39
+2022-01-29 19:58:09,281 - INFO - 192.168.10.133 - - [29/Jan/2022 19:58:09] "GET /sms?text=1643482659727&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:59:34,196 - INFO - 192.168.10.133 - - [29/Jan/2022 19:59:34] "GET /sms?text=%22Hello%22&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 19:59:42,188 - INFO - 192.168.10.133 - - [29/Jan/2022 19:59:42] "GET /sms?text=%22Hello%22&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-29 20:21:10,701 - INFO - 192.168.10.133 - - [29/Jan/2022 20:21:10] "GET /sms?text=%22Hello%22&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225

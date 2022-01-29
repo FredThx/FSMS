@@ -1,0 +1,4 @@
+pyserial
+parse
+FUTIL
+gammu

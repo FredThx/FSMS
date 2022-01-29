@@ -1,0 +1,16 @@
+[Unit]
+Description= Serveur http pour envoie SMS
+After=network.target
+
+[Service]
+ExecStart= /bin/python3 /opt/sms/server.py
+KillMode=process
+TimeoutSec=30
+Type=simple
+WorkingDirectory=/opt/sms/
+User=pi
+Group=pi
+RemainAfterExit=no
+
+[Install]
+
