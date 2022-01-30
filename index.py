@@ -1,5 +1,5 @@
 from mimetypes import MimeTypes
-from flask import Flask, request, current_app, render_template
+from flask import Flask, request, current_app, render_template, jsonify
 from flask_httpauth import HTTPBasicAuth
 from flask_cors import CORS
 
@@ -46,6 +46,20 @@ def index():
     '''
     status = current_app.sms_sender.get_status()
     return render_template('acceuil.html', status = status)
+
+
+@app.route('/status')
+@auth.login_required
+def status():
+    status = current_app.sms_sender.get_status()
+    return jsonify(status)
+
+@app.route('/inbox')
+@auth.login_required
+def inbox():
+    inbox = current_app.sms_sender.get_inbox()
+    print(inbox)
+    return jsonify(inbox)
 
 
 @app.route('/sms')

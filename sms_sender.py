@@ -73,6 +73,7 @@ class SmsSender:
         for location in range(1,sim_size+1):
             try:
                 sms = self.state_machine.GetSMS(0,location)[0]
+                del sms['UDH']
                 #Attention, la lecture du sms rend le sms lu
                 if not only_unread or sms.get('State')=='UnRead':
                     inbox.append(sms)
