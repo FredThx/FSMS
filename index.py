@@ -1,5 +1,5 @@
 from mimetypes import MimeTypes
-from flask import Flask, request, current_app
+from flask import Flask, request, current_app, render_template
 from flask_httpauth import HTTPBasicAuth
 from flask_cors import CORS
 
@@ -28,6 +28,8 @@ def verify_password(username, password):
 
 @app.before_first_request
 def load_sms_sender():
+    '''Initialisation de SmsSender
+    '''
     logging.info("Start gammu state machine ....")
     state_machine = gammu.StateMachine()
     state_machine.ReadConfig(Filename='gammu.ini')
@@ -40,12 +42,17 @@ def load_sms_sender():
 @app.route('/')
 @auth.login_required
 def index():
-    return "Salut"
+    '''page d'acceuil
+    '''
+    status = current_app.sms_sender.get_status()
+    return render_template('acceuil.html', status = status)
 
 
 @app.route('/sms')
 @auth.login_required
 def sms():
+    '''API envoie de SMS
+    '''
     text = request.args.get('text')
     numbers = request.args.get('numbers')
     logging.debug(f"http : /&text = {text} numbers={numbers}")

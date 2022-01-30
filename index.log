@@ -343,3 +343,72 @@
 2022-01-29 19:59:34,196 - INFO - 192.168.10.133 - - [29/Jan/2022 19:59:34] "GET /sms?text=%22Hello%22&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
 2022-01-29 19:59:42,188 - INFO - 192.168.10.133 - - [29/Jan/2022 19:59:42] "GET /sms?text=%22Hello%22&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
 2022-01-29 20:21:10,701 - INFO - 192.168.10.133 - - [29/Jan/2022 20:21:10] "GET /sms?text=%22Hello%22&numbers=%2B33608648987 HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:24,458 - INFO - my_logging logger is started. Console : DEBUG. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-30 16:41:25,850 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:25,853 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:25,869 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:27,064 - INFO - my_logging logger is started. Console : DEBUG. File (/home/pi/Devlopp/FSMS/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-30 16:41:28,330 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:28,334 - INFO -  * Debugger PIN: 734-750-938 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:44,158 - INFO - Start gammu state machine .... at /home/pi/Devlopp/FSMS/index.py ,line n°:33
+2022-01-30 16:41:44,292 - INFO - 192.168.10.164 - - [30/Jan/2022 16:41:44] "[35m[1mGET / HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:44,335 - INFO - 192.168.10.164 - - [30/Jan/2022 16:41:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:44,336 - INFO - 192.168.10.164 - - [30/Jan/2022 16:41:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:44,372 - INFO - 192.168.10.164 - - [30/Jan/2022 16:41:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:44,458 - INFO - 192.168.10.164 - - [30/Jan/2022 16:41:44] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:41:44,515 - INFO - 192.168.10.164 - - [30/Jan/2022 16:41:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:04,723 - INFO - my_logging logger is started. Console : DEBUG. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-30 16:42:05,993 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:05,996 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:06,012 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:07,276 - INFO - my_logging logger is started. Console : DEBUG. File (/home/pi/Devlopp/FSMS/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-30 16:42:08,556 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:08,638 - INFO -  * Debugger PIN: 734-750-938 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:09,787 - INFO - Start gammu state machine .... at /home/pi/Devlopp/FSMS/index.py ,line n°:33
+2022-01-30 16:42:13,281 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/FSMS/index.py ,line n°:37
+2022-01-30 16:42:14,545 - INFO - 192.168.10.164 - - [30/Jan/2022 16:42:14] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 16:42:14,642 - INFO - 192.168.10.164 - - [30/Jan/2022 16:42:14] "GET /static/style.css HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:41,101 - INFO - my_logging logger is started. Console : DEBUG. File (index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-30 18:04:42,370 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:42,374 - INFO -  * Running on http://192.168.10.74:50888/ (Press CTRL+C to quit) at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:42,390 - INFO -  * Restarting with stat at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:43,581 - INFO - my_logging logger is started. Console : DEBUG. File (/home/pi/Devlopp/FSMS/index.log) : INFO at /home/pi/.local/lib/python3.7/site-packages/FUTIL/my_logging.py ,line n°:104
+2022-01-30 18:04:44,842 - WARNING -  * Debugger is active! at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:44,846 - INFO -  * Debugger PIN: 734-750-938 at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:49,162 - INFO - Start gammu state machine .... at /home/pi/Devlopp/FSMS/index.py ,line n°:33
+2022-01-30 18:04:52,694 - INFO - Gammu state machine is initialised. at /home/pi/Devlopp/FSMS/index.py ,line n°:37
+2022-01-30 18:04:55,114 - INFO - 192.168.10.164 - - [30/Jan/2022 18:04:55] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:04:55,838 - INFO - 192.168.10.164 - - [30/Jan/2022 18:04:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:08:22,079 - INFO - 192.168.10.164 - - [30/Jan/2022 18:08:22] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:08:22,124 - INFO - 192.168.10.164 - - [30/Jan/2022 18:08:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:15:28,143 - INFO - 192.168.10.164 - - [30/Jan/2022 18:15:28] "[35m[1mGET / HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:15:28,191 - INFO - 192.168.10.164 - - [30/Jan/2022 18:15:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:15:28,193 - INFO - 192.168.10.164 - - [30/Jan/2022 18:15:28] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:15:28,234 - INFO - 192.168.10.164 - - [30/Jan/2022 18:15:28] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:15:28,241 - INFO - 192.168.10.164 - - [30/Jan/2022 18:15:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:15:28,303 - INFO - 192.168.10.164 - - [30/Jan/2022 18:15:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:12,182 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:12] "[35m[1mGET / HTTP/1.1[0m" 500 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:12,222 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:12] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:12,228 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:12] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:12,277 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:12] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:12,283 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:12,339 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:27,123 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:27] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:18:27,173 - INFO - 192.168.10.164 - - [30/Jan/2022 18:18:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:21:58,078 - INFO - 192.168.10.164 - - [30/Jan/2022 18:21:58] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:21:58,137 - INFO - 192.168.10.164 - - [30/Jan/2022 18:21:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:08,071 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:08] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:08,188 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:25,057 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:25] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:25,097 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:45,049 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:45] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:45,091 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:52,072 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:52] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:24:52,158 - INFO - 192.168.10.164 - - [30/Jan/2022 18:24:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:25:21,030 - INFO - 192.168.10.164 - - [30/Jan/2022 18:25:21] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:25:21,076 - INFO - 192.168.10.164 - - [30/Jan/2022 18:25:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:25:31,033 - INFO - 192.168.10.164 - - [30/Jan/2022 18:25:31] "GET / HTTP/1.1" 200 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
+2022-01-30 18:25:31,084 - INFO - 192.168.10.164 - - [30/Jan/2022 18:25:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 - at /usr/local/lib/python3.7/dist-packages/werkzeug/_internal.py ,line n°:225
