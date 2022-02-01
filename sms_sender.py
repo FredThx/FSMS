@@ -30,10 +30,13 @@ class SmsSender:
         '''Send messages
         '''
         self.is_running = True
+        try:
+            if self.pin_code and self.state_machine.GetSecurityStatus():
+                    self.state_machine.EnterSecurityCode("PIN",self.pin_code)
+        except gammu.ERR_TIMEOUT as e:
+            logging.error(f"Error during PIN indentification : {e}")
         while self.queue:
             message, callback = self.queue.pop(0)
-            if self.pin_code and self.state_machine.GetSecurityStatus():
-                self.state_machine.EnterSecurityCode("PIN",self.pin_code)
             try:
                 rep = self.state_machine.SendSMS(message)
             except Exception as e:

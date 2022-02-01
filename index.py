@@ -44,6 +44,7 @@ def load_sms_sender():
 def index():
     '''page d'acceuil
     '''
+    logging.info(f"request '/' from {request.remote_addr} : args = {request.args}")
     status = current_app.sms_sender.get_status()
     return render_template('acceuil.html', status = status)
 
@@ -51,12 +52,14 @@ def index():
 @app.route('/status')
 @auth.login_required
 def status():
+    logging.info(f"request '/status' from {request.remote_addr} : args = {request.args}")
     status = current_app.sms_sender.get_status()
     return jsonify(status)
 
 @app.route('/inbox')
 @auth.login_required
 def inbox():
+    logging.info(f"request '/inbox' from {request.remote_addr} : args = {request.args}")
     inbox = current_app.sms_sender.get_inbox()
     print(inbox)
     return jsonify(inbox)
@@ -67,6 +70,7 @@ def inbox():
 def sms():
     '''API envoie de SMS
     '''
+    logging.info(f"request '/sms' from {request.remote_addr} : args = {request.args}")
     text = request.args.get('text')
     numbers = request.args.get('numbers')
     logging.debug(f"http : /&text = {text} numbers={numbers}")
@@ -79,4 +83,4 @@ def sms():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=50888, debug=True)
+    app.run(host='0.0.0.0', port=50000, debug=True)
