@@ -32,7 +32,7 @@ def load_sms_sender():
     '''
     logging.info("Start gammu state machine ....")
     state_machine = gammu.StateMachine()
-    state_machine.ReadConfig(Filename='gammu.ini')
+    state_machine.ReadConfig(Filename="gammu.ini")
     state_machine.Init()
     logging.info("Gammu state machine is initialised.")
     current_app.sms_sender = SmsSender(state_machine, pin_code = "1234")
@@ -83,4 +83,4 @@ def sms():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=50000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

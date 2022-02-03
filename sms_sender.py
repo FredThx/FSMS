@@ -1,11 +1,12 @@
 import time, datetime
 import logging
 import gammu
+import threading
 
 class SmsSender:
     '''Une file d'attente pour envoyer des sms via gammu
     '''
-    def __init__(self, state_machine, pin_code = None, delay = 1):
+    def __init__(self, state_machine, pin_code = None, delay = 1, nb_trys_max = 5):
         '''Initialisation
         state_machine : a gammu.StateMachine
         delay : time between two sms
@@ -13,41 +14,59 @@ class SmsSender:
         self.state_machine = state_machine
         self.delay = delay
         self.pin_code = pin_code
+        self.nb_trys_max = nb_trys_max
         self.queue = []
-        self.is_running = False
         logging.debug(f"SmsSender created : {self}")
         self.set_datetime()
+        self.thread_is_running = True
+        self.thread = threading.Thread(target=self.always_run)
+        self.thread.start()
+
+    def always_run(self):
+        '''backbround function
+        '''
+        while self.thread_is_running:
+            self.run()
+            #logging.debug("Queue is empty.")
+            time.sleep(0.1)
 
     def send(self, message, callback = None):
         '''Add a message to the queue and sent messages
         callback is function with one argument
         '''
-        self.queue.append((message, callback))
-        if not self.is_running:
-            self.run()
+        self.queue.append((message, callback, 0))
+
+    def set_pin(self, pin = None):
+        pin = pin or self.pin_code
+        try:
+            if pin and self.state_machine.GetSecurityStatus():
+                    self.state_machine.EnterSecurityCode("PIN",pin)
+        except gammu.ERR_TIMEOUT as e:
+            logging.error(f"Error during PIN indentification : {e}")
 
     def run(self):
         '''Send messages
         '''
-        self.is_running = True
-        try:
-            if self.pin_code and self.state_machine.GetSecurityStatus():
-                    self.state_machine.EnterSecurityCode("PIN",self.pin_code)
-        except gammu.ERR_TIMEOUT as e:
-            logging.error(f"Error during PIN indentification : {e}")
         while self.queue:
-            message, callback = self.queue.pop(0)
+            logging.debug(f"Queue lenght : {len(self.queue)}.")
+            message, callback, trys = self.queue.pop(0)
+            logging.debug(f"Try n°{trys} for {message}.")
             try:
                 rep = self.state_machine.SendSMS(message)
             except Exception as e:
-                rep = e
-                logging.error(f"SMS not send : {message} => {rep}")
+                if trys < self.nb_trys_max:
+                    self.queue.append((message, callback, trys+1))
+                    logging.warning(f"SMS error (try{trys}/{self.nb_trys_max}): {message} => {e}")
+                    rep = None
+                else:
+                    logging.error(f"SMS not send : {message} => {rep}")
+                    rep = e
+                self.set_pin()
             else:
                 logging.debug(f"SMS send : {message} => {rep}")
-            if callback:
+            if rep and callback:
                 callback(rep)
             time.sleep(self.delay)
-        self.is_running = False
 
     def get_status(self):
         '''Return a dict
