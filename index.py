@@ -15,10 +15,8 @@ app = Flask(__name__)
 CORS(app)
 
 auth = HTTPBasicAuth()
+from users import users
 
-users = {
-    "fredthx": generate_password_hash("thx_")
-}
 
 @auth.verify_password
 def verify_password(username, password):
@@ -77,7 +75,7 @@ def sms():
     if text and numbers:        
         message = {"Text":text, "SMSC" : {"Location" : 1}, "Number" : numbers}
         current_app.sms_sender.send(message)
-        return "OK (ou pas!)"
+        return "OK"
     else:
         return "Need text and number(s)!"
 
