@@ -16,7 +16,7 @@ CORS(app)
 
 auth = HTTPBasicAuth()
 from users import users
-
+users={user:generate_password_hash(password) for user, password in users.items()}
 
 @auth.verify_password
 def verify_password(username, password):
