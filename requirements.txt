@@ -2,3 +2,5 @@ pyserial
 parse
 FUTIL
 gammu
+tinydb
+tinydb-serialization

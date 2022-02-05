@@ -117,3 +117,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 index.log
+users.py
+db_sms.json
