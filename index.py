@@ -24,14 +24,12 @@ def verify_password(username, password):
         return check_password_hash(users.get(username), password)
     return False
 
-#@app.before_first_request
-#def load_sms_sender():
 with app.app_context():
     '''Initialisation de SmsSender
     '''
     if not hasattr(current_app,"sms_sender"):
         current_app.sms_sender = True
-        current_app.sms_sender = SmsSender(gammu_config = "gammu.ini", pin_code = "1234",  mqtt_out_topic = "FSMS\INCOMING", mqtt_host = '192.168.10.155')
+        current_app.sms_sender = SmsSender(gammu_config = "gammu.ini", pin_code = "1234",  mqtt_out_topic = "FSMS\INCOMING", mqtt_host = '192.168.10.155', delay=10)
 
 
 @app.route('/')

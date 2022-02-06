@@ -13,7 +13,7 @@ import paho.mqtt.publish as publish
 class SmsSender:
     '''Une file d'attente pour envoyer des sms via gammu
     '''
-    def __init__(self, gammu_config, pin_code = None, mqtt_out_topic = None, mqtt_host = None, mqtt_port = 1883, delay = 1, nb_trys_max = 5):
+    def __init__(self, gammu_config, pin_code = None, mqtt_out_topic = None, mqtt_host = None, mqtt_port = 1883, delay = 1, retrys = 5):
         '''Initialisation
         gammu_config : a gammu file config
         delay : time between two sms
@@ -25,7 +25,7 @@ class SmsSender:
         logging.info("Gammu state machine is initialised.")
         self.delay = delay
         self.pin_code = pin_code
-        self.nb_trys_max = nb_trys_max
+        self.retrys = retrys
         self.queue = []
         self.set_datetime()
         #db
@@ -88,9 +88,9 @@ class SmsSender:
             try:
                 rep = self.state_machine.SendSMS(message)
             except gammu.GSMError as e:
-                if trys < self.nb_trys_max:
+                if trys < self.retrys:
                     self.queue.append((message, callback, trys+1))
-                    logging.warning(f"SMS error (try{trys}/{self.nb_trys_max}): {message} => {e}")
+                    logging.warning(f"SMS error (try{trys}/{self.retrys}): {message} => {e}")
                     rep = None
                 else:
                     logging.error(f"SMS not send : {message} => {rep}")
@@ -131,7 +131,6 @@ class SmsSender:
     def _get_inbox(self, only_unread = False):
         '''Return all inbox sms
         '''
-        #sim_used = self.state_machine.GetSMSStatus().get('SIMUsed')
         sim_size = self.state_machine.GetSMSStatus().get('SIMSize')
         inbox = []
         for location in range(1,sim_size+1):
@@ -143,6 +142,7 @@ class SmsSender:
                 #Attention, la lecture du sms rend le sms lu
                 if not only_unread or sms.get('State')=='UnRead':
                     inbox.append(sms)
+                time.sleep(0.1)
             except gammu.ERR_EMPTY:
                 pass
         return inbox
